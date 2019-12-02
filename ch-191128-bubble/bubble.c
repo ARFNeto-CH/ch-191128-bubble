@@ -68,8 +68,6 @@ int main(int argc, char** argv)
 	int		coluna = 8;
 	int		m = 64; // tamanho do vetor para os testes simples
 	int		n = 10;
-	char	mensagem[40];
-	time_t	hora;
 
 	if (argc > 1)
 	{	// linha de comando bubble N intervalo
@@ -78,7 +76,7 @@ int main(int argc, char** argv)
 		if (argc > 2)
 		{
 			intervalo = atoi(argv[2]);
-			if (intervalo > 200 || intervalo < 10) intervalo = 0;	// entre 160 e 2000 ms
+			if (intervalo > 200 || intervalo < 10) intervalo = 0;	// entre 100 e 2000 ms
 		};
 	};	// end if
 
