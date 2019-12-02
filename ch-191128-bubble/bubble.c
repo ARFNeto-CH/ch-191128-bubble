@@ -57,7 +57,7 @@ void	text_color(HANDLE, int, int); // usando o handle passado
 void	teste_down(int);		// normal
 void	teste_down_A(int, int, int, int);	// animado normal
 void	teste_up(int);			// bolha sobe
-void	teste_up_A(int, int, int);	// animado bolha
+void	teste_up_A(int, int, int, int);	// animado bolha
 
 int		intervalo = _intervalo_;	// pura preguica
 
