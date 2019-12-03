@@ -409,7 +409,7 @@ int		mostra_status(char* mensagem, int tempo, int N)
 
 
 int	cls()
-{	// limpa a tela no windows, no oficial
+{	// limpa a tela no windows, do jeito oficial
 	CONSOLE_SCREEN_BUFFER_INFO		info;
 	HANDLE		H = GetStdHandle(STD_OUTPUT_HANDLE);
 	COORD		origem = { 0,0 };
